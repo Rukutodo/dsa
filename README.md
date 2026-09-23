@@ -2,8 +2,15 @@
 
 Data Structures & Algorithms practice — problems, notes, and solutions.
 
-Open this repo in the browser-based editor by pressing `.` on GitHub, or go directly to:
-`https://github.dev/<your-username>/dsa`
+## Editing & running the code
+
+- **Browsing/editing only**: press `.` on this repo (or go to `https://github.dev/<your-username>/dsa`). This is just an editor — it cannot compile or run code.
+- **Compiling/running in the cloud**: open this repo in **GitHub Codespaces** (Code → Codespaces → Create codespace). The included `.devcontainer/` config gives you a full Linux VM with g++ preinstalled and a real terminal. Uses your free monthly Codespaces hours, then billed.
+- **Compiling/running locally**: install a C++ compiler (e.g., MinGW-w64/g++ on Windows) and use the terminal:
+  ```bash
+  g++ -std=c++17 -Wall -o solution solution.cpp
+  ./solution
+  ```
 
 ## Structure
 

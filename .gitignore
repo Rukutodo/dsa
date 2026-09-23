@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Build artifacts
+*.class
+*.o
+*.exe
+__pycache__/
+*.pyc
+node_modules/
